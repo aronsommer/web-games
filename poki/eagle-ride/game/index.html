@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Eagle Ride</title>
+    <link rel="stylesheet" href="../../../game.css" />
+  </head>
+  <body>
+    <script src="../../poki-sdk.js"></script>
+    <canvas id="unity-canvas"></canvas>
+    <script src="Build/a4c0faa7242bf648c015162cae6e424b.loader.js"></script>
+    <script>
+      window.unityInstance = createUnityInstance(document.querySelector("#unity-canvas"), {
+        companyName: "Aron Sommer",
+        productName: "Eagle Ride",
+        devicePixelRatio: 1,
+        codeUrl: "Build/180d42019b8c175cb499430ffb94f982.wasm",
+        dataUrl: "Build/7cd656f7001c1b195b7df31e22f1a2b6.data",
+        frameworkUrl: "Build/d2a88fdbadb0d9129133b793326dc1c1.framework.js",
+      });
+    </script>
+  </body>
+</html>

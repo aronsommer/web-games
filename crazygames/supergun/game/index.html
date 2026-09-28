@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Supergun</title>
+    <link rel="stylesheet" href="../../../game.css" />
+  </head>
+  <body>
+    <script src="../../crazygames-sdk.js"></script>
+    <div id="unity-container"></div>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      window.unityInstance = UnityLoader.instantiate("unity-container", "Build/Supergun.json");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Slope Car</title>
+    <link rel="stylesheet" href="../../../game.css" />
+  </head>
+  <body>
+    <script src="../../crazygames-sdk.js"></script>
+    <canvas id="unity-canvas"></canvas>
+    <script src="Build/d9ada803fc00812a86d7a262baa49ffe.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        companyName: "Aron Sommer",
+        productName: "Slope Car",
+        devicePixelRatio: 1,
+        codeUrl: "Build/50b6258925b739f3ebc2f7a66a91b6e0.wasm",
+        dataUrl: "Build/0b32957df3dda5dbfe0a4a4b36ae2dbe.data",
+        frameworkUrl: "Build/3de9d11d80db2fc6bd833e79d0527ec5.framework.js",
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Eagle Ride</title>
+    <link rel="stylesheet" href="../../../game.css" />
+  </head>
+  <body>
+    <script src="../../crazygames-sdk.js"></script>
+    <canvas id="unity-canvas"></canvas>
+    <script src="Build/0e690a331034d41fc6104b665d7d6ff2.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        companyName: "Aron Sommer",
+        productName: "Eagle Ride",
+        devicePixelRatio: 1,
+        codeUrl: "Build/100b3aaeca7f17d7a0d7013fa4ac2870.wasm",
+        dataUrl: "Build/17430ae69ea94a50f1b55c84ffa0a24a.data",
+        frameworkUrl: "Build/97d5e7efd668bb312ac836f3e8a88efe.framework.js",
+      });
+    </script>
+  </body>
+</html>

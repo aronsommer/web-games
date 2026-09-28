@@ -1,0 +1,93 @@
+{
+  "id": "19255",
+  "name": "Cat Car",
+  "slug": "cat-car",
+  "https": true,
+  "rating": 8.5,
+  "upvotes": 1284,
+  "downvotes": 225,
+  "desktopUrl": "https://games.crazygames.com/en_US/cat-car/index.html",
+  "tags": [],
+  "descriptionFirst": "Cat Car is a funny high-score driving game in which you play as Cat Car. The time is running and you have to catch as many yellow balls as you can.",
+  "descriptionRest": " Avoid the red balls and have fun!\n\n<h3>Release Date</h3>\n<ul>\n  <li>October 2020 (Android and iOS)</li>\n  <li>May 2021 (WebGL)</li>\n</ul>\n\n<h3>Developer</h3>\nAron Sommer developed Cat Car.\n\n<h3>Platforms</h3>\n<ul>\n<li>Web browser</li>\n  <li>Android</li>\n  <li>iOS</li>\n</ul>\n",
+  "metaDescription": "Cat Car is a funny high-score driving game in which you play as Cat Car. The time is running and you have to catch as many yellow balls as you can.",
+  "developer": "Aron Sommer",
+  "developerId": "gU00xR1vpiNctk0eyRMMBSGcdaB2",
+  "controls": "<h3>Controls</h3>\n<ul>\n  <li>WASD or arrow keys to control your Cat Car</li>\n  <li>Press spacebar to change camera view</li>\n  <li>Press R key to reset to start position</li>\n</ul>",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.aronsommer.catcar",
+  "appStoreUrl": "https://apps.apple.com/us/app/cat-car/id1535337245",
+  "steamStoreUrl": null,
+  "msnStoreUrl": null,
+  "technology": "unity",
+  "gamesInSeries": [],
+  "videos": {
+    "sizes": [
+      {
+        "width": 205,
+        "height": 115,
+        "location": "cat-car/1/cat-car-205x115.mp4"
+      },
+      {
+        "width": 249,
+        "height": 140,
+        "location": "cat-car/1/cat-car-249x140.mp4"
+      },
+      {
+        "width": 364,
+        "height": 208,
+        "location": "cat-car/1/cat-car-364x208.mp4"
+      },
+      {
+        "width": 494,
+        "height": 276,
+        "location": "cat-car/1/cat-car-494x276.mp4"
+      },
+      {
+        "width": 611,
+        "height": 343,
+        "location": "cat-car/1/cat-car-611x343.mp4"
+      }
+    ],
+    "original": "cat-car/1/cat-car.mp4",
+    "blurredVideo": null,
+    "portraitSizes": [],
+    "portraitOriginal": null
+  },
+  "cover": "cat-car/20210503114614/cat-car-cover",
+  "covers": {
+    "16x9": "cat-car/20210503114614/cat-car-cover"
+  },
+  "hierarchy": [],
+  "allowEmbed": true,
+  "collection": "cat",
+  "status": "ARCHIVED",
+  "sandbox": true,
+  "orientation": "BOTH",
+  "disablePWA": false,
+  "isKids": false,
+  "gameThumbLabels": [],
+  "addedOn": "2021-05-03",
+  "basicLaunchOn": "2021-05-03",
+  "isSelfHosted": true,
+  "externalLinks": {},
+  "customFields": {},
+  "iosFriendly": true,
+  "androidFriendly": true,
+  "iosAppFriendly": false,
+  "androidAppFriendly": false,
+  "chromebookFriendly": false,
+  "safariFriendly": true,
+  "hasIap": false,
+  "gameSupportUrl": null,
+  "loaderType": "5.6.x",
+  "loaderTypeLabel": "Unity 5.6",
+  "loaderConfig": {
+    "moduleJsonUrl": "https://files.crazygames.com/cat-car/1/Cat Car/Build/Cat Car.json",
+    "unityLoaderUrl": "https://files.crazygames.com/unityloaders/UnityLoader-v3.js"
+  },
+  "buildId": "b7a3562c-d4a0-4a92-a9bd-80839394677b",
+  "hasLeaderboard": false,
+  "leaderboardGuide": null,
+  "isPreview": true,
+  "userProgressionSaveMessage": "local"
+}

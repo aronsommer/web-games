@@ -1,0 +1,73 @@
+{
+  "id": "15317",
+  "name": "Hyper Jelly",
+  "slug": "hyper-jelly",
+  "https": true,
+  "rating": 8.9,
+  "upvotes": 893,
+  "downvotes": 116,
+  "desktopUrl": "https://games.crazygames.com/en_US/hyper-jelly/index.html",
+  "tags": [],
+  "descriptionFirst": "<p>Hyper Jelly is an awesome and fast-paced platform game in which you control a single jelly cube and must jump from one platform to the next. This might sound easy, but the 3D platforms and changing camera angle make this game tricky.",
+  "descriptionRest": " You must try and avoid the various obstacles on the platforms an do what you can to keep the jelly moving.\n\n</p><p>\n\nThis is an endless game and you must simply see how far you progress and what high score you can register. Use the space bar to jump, and use the C key to change the angle of the camera. What high score can you register on Hyper Jelly? \n\n<h3>Release Date</h3>\nMay 2018 \n\n<h3>Developer</h3>\nHyper Jelly was developed by Aron Sommer. You should check other great arcade games from him, <a href='https://www.crazygames.com/game/supergun' target='_blank'>Supergun</a> and <a href='https://www.crazygames.com/game/eagle-ride' target='_blank'>Eagle Ride</a>.\n\n<h3>Features</h3>\n<ul>\n<li>A fun arcade game featuring a big purple ball</li>\n<li>Simple controls</li>\n<li>Three different camera views</li>\n<li>Addictive endless gameplay</li>\n</ul>\n\n<h3>Platforms</h3>\n<ul><li>Web browser</li>\n<li>Android</li>\n<li>iOS</li>\n</ul>",
+  "metaDescription": "Hyper Jelly is an awesome and fast-paced platform game in which you control a single jelly cube and must jump from one platform to the next. This might sound easy, but the 3D platforms and changing camera angle make this game tricky.",
+  "developer": "Aron Sommer",
+  "developerId": "gU00xR1vpiNctk0eyRMMBSGcdaB2",
+  "controls": "<h3>Controls</h3>\n<ul>\n<li>Hold space bar to jump</li>\n<li>C key to change camera view</li>\n</ul>",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.aronsommer.hyperjelly",
+  "appStoreUrl": "https://itunes.apple.com/us/app/hyper-jelly/id598151445?l=de&ls=1&mt=8",
+  "steamStoreUrl": null,
+  "msnStoreUrl": null,
+  "technology": "unity",
+  "gamesInSeries": [],
+  "videos": {
+    "sizes": [
+      {
+        "width": 180,
+        "height": 111,
+        "location": "hyper-jelly.mp4"
+      }
+    ],
+    "original": null,
+    "blurredVideo": null,
+    "portraitSizes": [],
+    "portraitOriginal": null
+  },
+  "cover": "hyper-jelly/20210419131949/hyper-jelly-cover",
+  "covers": {
+    "16x9": "hyper-jelly/20210419131949/hyper-jelly-cover"
+  },
+  "hierarchy": [],
+  "allowEmbed": true,
+  "collection": "jumping",
+  "status": "ARCHIVED",
+  "sandbox": true,
+  "orientation": "BOTH",
+  "disablePWA": false,
+  "isKids": false,
+  "gameThumbLabels": [],
+  "addedOn": "2018-05-07",
+  "basicLaunchOn": "2018-05-07",
+  "isSelfHosted": true,
+  "externalLinks": {},
+  "customFields": {},
+  "iosFriendly": true,
+  "androidFriendly": true,
+  "iosAppFriendly": false,
+  "androidAppFriendly": false,
+  "chromebookFriendly": false,
+  "safariFriendly": true,
+  "hasIap": false,
+  "gameSupportUrl": null,
+  "loaderType": "5.6.x",
+  "loaderTypeLabel": "Unity 5.6",
+  "loaderConfig": {
+    "moduleJsonUrl": "https://files.crazygames.com/hyper-jelly/5/Hyper Jelly/Build/Hyper Jelly.json",
+    "unityLoaderUrl": "https://files.crazygames.com/unityloaders/UnityLoader-v3.js"
+  },
+  "buildId": "59926660-fa2e-4fde-a911-564a58f1e637",
+  "hasLeaderboard": false,
+  "leaderboardGuide": null,
+  "isPreview": true,
+  "userProgressionSaveMessage": "local"
+}

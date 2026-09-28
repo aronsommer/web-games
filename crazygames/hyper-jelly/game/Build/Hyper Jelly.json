@@ -1,0 +1,15 @@
+{
+"companyName": "Aron Sommer",
+"productName": "Hyper Jelly",
+"dataUrl": "Hyper Jelly.data.unityweb",
+"wasmCodeUrl": "Hyper Jelly.wasm.code.unityweb",
+"wasmFrameworkUrl": "Hyper Jelly.wasm.framework.unityweb",
+"asmCodeUrl": "Hyper Jelly.asm.code.unityweb",
+"asmMemoryUrl": "Hyper Jelly.asm.memory.unityweb",
+"asmFrameworkUrl": "Hyper Jelly.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}

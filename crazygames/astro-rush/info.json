@@ -1,0 +1,92 @@
+{
+  "id": "19206",
+  "name": "Astro Rush",
+  "slug": "astro-rush",
+  "https": true,
+  "rating": 9.2,
+  "upvotes": 4714,
+  "downvotes": 397,
+  "desktopUrl": "https://games.crazygames.com/en_US/astro-rush/index.html",
+  "tags": [],
+  "descriptionFirst": "<p>Astro Rush is an intense fast-paced arcade game to race through space and dodge obstacles as long as possible.</p>\n<p>Take control of two meteorites while you rush through a trippy galaxy.",
+  "descriptionRest": " Rotate the meteorites through the obstacles. If you fail once, you will have one meteorite left and switch from rotating to dodging controls. You can play in normal mode or in three different wireframe modes.</p>\n<h3>Release Date</h3>\n<ul>\n    <li>September 2020 (Android and iOS)</li>\n    <li>April 2021 (WebGL)</li>\n</ul>\n<h3>Developer</h3>\n<p>Aron Sommer developed this game. If you like this kind of game, you should also check <a target=\"_blank\" href=\"https://www.crazygames.com/game/supergun\">Supergun</a>, from the same developer!</p>\n<h3>Platforms</h3>\n<ul>\n    <li>Web browser</li>\n    <li>Android</li>\n    <li>iOS</li>\n</ul>",
+  "metaDescription": "Astro Rush is an intense fast-paced arcade game to race through space and dodge obstacles as long as possible. Take control of two meteorites while you rush through a trippy galaxy.",
+  "developer": "Aron Sommer",
+  "developerId": "gU00xR1vpiNctk0eyRMMBSGcdaB2",
+  "controls": "<h3>Controls</h3>\n<ul>\n    <li>With 2 meteorites: press AD or left and right arrow keys to rotate</li>\n    <li>With 1 meteorite: press AD or left and right arrow keys to dodge</li>\n    <li>You can invert the controls in the main menu</li>\n</ul>",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.aronsommer.astrorush",
+  "appStoreUrl": "https://apps.apple.com/us/app/astro-rush/id1532105055",
+  "steamStoreUrl": null,
+  "msnStoreUrl": null,
+  "technology": "unity",
+  "gamesInSeries": [],
+  "videos": {
+    "sizes": [
+      {
+        "width": 205,
+        "height": 115,
+        "location": "astro-rush/1/astro-rush-205x115.mp4"
+      },
+      {
+        "width": 249,
+        "height": 140,
+        "location": "astro-rush/1/astro-rush-249x140.mp4"
+      },
+      {
+        "width": 364,
+        "height": 208,
+        "location": "astro-rush/1/astro-rush-364x208.mp4"
+      },
+      {
+        "width": 494,
+        "height": 276,
+        "location": "astro-rush/1/astro-rush-494x276.mp4"
+      },
+      {
+        "width": 611,
+        "height": 343,
+        "location": "astro-rush/1/astro-rush-611x343.mp4"
+      }
+    ],
+    "original": "astro-rush/1/astro-rush.mp4",
+    "blurredVideo": null,
+    "portraitSizes": [],
+    "portraitOriginal": null
+  },
+  "cover": "astro-rush/20210419165221/astro-rush-cover",
+  "covers": {
+    "16x9": "astro-rush/20210419165221/astro-rush-cover"
+  },
+  "hierarchy": [],
+  "allowEmbed": false,
+  "status": "ARCHIVED",
+  "sandbox": true,
+  "orientation": "BOTH",
+  "disablePWA": false,
+  "isKids": false,
+  "gameThumbLabels": [],
+  "addedOn": "2021-04-19",
+  "basicLaunchOn": "2021-04-19",
+  "isSelfHosted": true,
+  "externalLinks": {},
+  "customFields": {},
+  "iosFriendly": true,
+  "androidFriendly": true,
+  "iosAppFriendly": false,
+  "androidAppFriendly": false,
+  "chromebookFriendly": false,
+  "safariFriendly": true,
+  "hasIap": false,
+  "gameSupportUrl": null,
+  "loaderType": "5.6.x",
+  "loaderTypeLabel": "Unity 5.6",
+  "loaderConfig": {
+    "moduleJsonUrl": "https://files.crazygames.com/astro-rush/1/Astro Rush/Build/Astro Rush.json",
+    "unityLoaderUrl": "https://files.crazygames.com/unityloaders/UnityLoader-v3.js"
+  },
+  "buildId": "17ae6382-0f78-476f-a9f6-15ab3dfef834",
+  "hasLeaderboard": false,
+  "leaderboardGuide": null,
+  "isPreview": true,
+  "userProgressionSaveMessage": "local"
+}

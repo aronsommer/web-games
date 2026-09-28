@@ -1,0 +1,16 @@
+{
+"companyName": "Aron Sommer",
+"productName": "Cat Car",
+"productVersion": "1.0.5",
+"dataUrl": "Cat Car.data.unityweb",
+"wasmCodeUrl": "Cat Car.wasm.code.unityweb",
+"wasmFrameworkUrl": "Cat Car.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.15f1"
+}

@@ -1,0 +1,16 @@
+{
+"companyName": "Aron Sommer",
+"productName": "Angry Zombie",
+"dataUrl": "AngryZombie-WebGL-Poki-Wasm.data.unityweb",
+"wasmCodeUrl": "AngryZombie-WebGL-Poki-Wasm.wasm.code.unityweb",
+"wasmFrameworkUrl": "AngryZombie-WebGL-Poki-Wasm.wasm.framework.unityweb",
+"asmCodeUrl": "AngryZombie-WebGL-Poki-Wasm.asm.code.unityweb",
+"asmMemoryUrl": "AngryZombie-WebGL-Poki-Wasm.asm.memory.unityweb",
+"asmFrameworkUrl": "AngryZombie-WebGL-Poki-Wasm.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "AngryZombie-WebGL-Poki-Wasm.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}

@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Original game builds: never touch line endings, never diff
+*/*/game/Build/** binary
+*/overrides/** binary

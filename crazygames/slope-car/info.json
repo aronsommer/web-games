@@ -1,0 +1,122 @@
+{
+  "id": "19383",
+  "name": "Slope Car",
+  "slug": "slope-car",
+  "https": true,
+  "rating": 8.5,
+  "upvotes": 876,
+  "downvotes": 149,
+  "desktopUrl": "https://games.crazygames.com/en_US/slope-car/index.html",
+  "tags": [],
+  "descriptionFirst": "<p>Slope Car is an arcade game to drive your car on a randomized slope and go as far as possible. This game is a combination of <a target=\"_blank\" href=\"https://www.crazygames.com/game/crazy-roll-3d\">Crazy Roll 3D</a> and driving a car.</p>",
+  "descriptionRest": "\n<h3>Release Date</h3>\n<p>June 2021</p>\n<h3>Developer</h3>\n<p>Slope Car was made by Aron Sommer.</p>\n<h3>Platforms</h3>\n<ul>\n    <li>Web browser</li>\n    <li>Android</li>\n    <li>iOS</li>\n</ul>",
+  "metaDescription": "Slope Car is an arcade game to drive your car on a randomized slope and go as far as possible. This game is a combination of Crazy Roll 3D and driving a car.",
+  "developer": "Aron Sommer",
+  "developerId": "gU00xR1vpiNctk0eyRMMBSGcdaB2",
+  "controls": "<h3>Controls</h3>\n<ul>\n    <li>AD / left and right arrow keys = steer </li>\n    <li>W / up arrow key = boost</li>\n</ul>",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.aronsommer.slopecar",
+  "appStoreUrl": "https://apps.apple.com/us/app/slope-car/id1567093636",
+  "steamStoreUrl": null,
+  "msnStoreUrl": null,
+  "technology": "unity",
+  "gamesInSeries": [],
+  "videos": {
+    "sizes": [
+      {
+        "width": 205,
+        "height": 115,
+        "location": "slope-car/1/slope-car-landscape-205x115_30fps.mp4"
+      },
+      {
+        "width": 249,
+        "height": 140,
+        "location": "slope-car/1/slope-car-landscape-249x140_30fps.mp4"
+      },
+      {
+        "width": 364,
+        "height": 208,
+        "location": "slope-car/1/slope-car-landscape-364x208_30fps.mp4"
+      },
+      {
+        "width": 494,
+        "height": 276,
+        "location": "slope-car/1/slope-car-landscape-494x276_30fps.mp4"
+      },
+      {
+        "width": 611,
+        "height": 343,
+        "location": "slope-car/1/slope-car-landscape-611x343_30fps.mp4"
+      },
+      {
+        "width": 1024,
+        "height": 576,
+        "location": "slope-car/1/slope-car-landscape-1024x576_30fps.mp4"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "location": "slope-car/1/slope-car-landscape-1280x720_30fps.mp4"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "location": "slope-car/1/slope-car-landscape-1920x1080_30fps.mp4"
+      }
+    ],
+    "original": "slope-car/1/slope-car.mp4",
+    "blurredVideo": {
+      "width": 922,
+      "height": 532,
+      "location": "slope-car/1/slope-car-landscape-922x532_30fps_blurred.mp4"
+    },
+    "portraitSizes": [],
+    "portraitOriginal": null
+  },
+  "cover": "slope-car_16x9/20241004045353/slope-car_16x9-cover",
+  "covers": {
+    "1x1": "slope-car_1x1/20241004045353/slope-car_1x1-cover",
+    "2x3": "slope-car_2x3/20241004045353/slope-car_2x3-cover",
+    "16x9": "slope-car_16x9/20241004045353/slope-car_16x9-cover"
+  },
+  "hierarchy": [],
+  "allowEmbed": true,
+  "collection": "car",
+  "status": "PUBLISHED",
+  "sandbox": true,
+  "orientation": "BOTH",
+  "disablePWA": false,
+  "lastFileUpdatedOn": "2024-10-04",
+  "isKids": false,
+  "gameThumbLabels": [],
+  "addedOn": "2021-05-28",
+  "basicLaunchOn": "2021-06-08",
+  "lastSignificantUpdatedOn": "2024-10-04",
+  "isSelfHosted": true,
+  "externalLinks": {},
+  "customFields": {},
+  "iosFriendly": true,
+  "androidFriendly": true,
+  "iosAppFriendly": false,
+  "androidAppFriendly": true,
+  "chromebookFriendly": false,
+  "safariFriendly": true,
+  "hasIap": false,
+  "gameSupportUrl": null,
+  "loaderType": "unity2023",
+  "loaderTypeLabel": "Unity 2023",
+  "loaderConfig": {
+    "showProgress": true,
+    "moduleJsonUrl": "https://FILES_DOMAIN/slope-car/4/Slope Car/Build/Slope Car.json",
+    "unityLoaderUrl": "https://files.crazygames.com/slope-car/7/Build/d9ada803fc00812a86d7a262baa49ffe.loader.js",
+    "unityConfigOptions": {
+      "codeUrl": "https://files.crazygames.com/slope-car/7/Build/50b6258925b739f3ebc2f7a66a91b6e0.wasm.br",
+      "dataUrl": "https://files.crazygames.com/slope-car/7/Build/0b32957df3dda5dbfe0a4a4b36ae2dbe.data.br",
+      "frameworkUrl": "https://files.crazygames.com/slope-car/7/Build/3de9d11d80db2fc6bd833e79d0527ec5.framework.js.br"
+    }
+  },
+  "buildId": "925a0e6d-f45e-4bda-96de-eb6a5e9d32d2",
+  "hasLeaderboard": false,
+  "leaderboardGuide": null,
+  "isPreview": true,
+  "userProgressionSaveMessage": "cloud"
+}

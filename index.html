@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Games - Aron Sommer</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        background: #000;
+      }
+
+      main {
+        flex: 1;
+        min-height: 0;
+        position: relative;
+        overflow: hidden;
+      }
+
+      iframe {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        border: 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: safe center;
+        gap: 12px;
+        padding: 6px 12px;
+        overflow-x: auto;
+      }
+
+      button {
+        flex: none;
+        padding: 0;
+        border: 0;
+        background: none;
+        border-radius: 8px;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: opacity 0.15s;
+      }
+
+      button:hover,
+      button[aria-current="true"] {
+        opacity: 1;
+      }
+
+      button[aria-current="true"] {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+      }
+
+      img {
+        display: block;
+        height: 64px;
+        aspect-ratio: auto 16 / 9;
+        border-radius: 8px;
+      }
+
+      #fullscreen {
+        display: grid;
+        place-items: center;
+        width: 64px;
+        height: 64px;
+        background: #222;
+        color: #fff;
+      }
+
+      svg {
+        display: block;
+        width: 32px;
+        height: 32px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main><iframe allow="autoplay; fullscreen"></iframe></main>
+    <nav>
+      <button id="fullscreen" aria-label="Fullscreen">
+        <svg viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M120-120v-193h60v133h133v60H120Zm527 0v-60h133v-133h60v193H647ZM120-647v-193h193v60H180v133h-60Zm660 0v-133H647v-60h193v193h-60Z"
+          />
+        </svg>
+      </button>
+    </nav>
+    <script>
+      // Platform folder each game is served from.
+      const platforms = {
+        "Astro Rush": "crazygames",
+        "Cat Car": "crazygames",
+        "Eagle Ride": "poki",
+        "Hyper Jelly": "crazygames",
+        "Slope Car": "crazygames",
+        Supergun: "poki",
+        // Out of order so it is never the default game.
+        "Angry Zombie": "poki",
+      };
+      const games = Object.keys(platforms);
+      // Folder, cover file and address hash all use this slug.
+      const slug = (game) => game.toLowerCase().replaceAll(" ", "-");
+      const dir = (game) => `${platforms[game]}/${slug(game)}`;
+      // Covers not at <platform>/<slug>/images/<slug>-16x9.jpg.
+      const covers = {
+        "Eagle Ride": "crazygames/eagle-ride/images/eagle-ride-16x9.jpg",
+        Supergun: "crazygames/supergun/images/supergun-16x9.jpg",
+        "Angry Zombie": "poki/angry-zombie/images/angry-zombie-1x1.png",
+      };
+      const cover = (game) => covers[game] ?? `${dir(game)}/images/${slug(game)}-16x9.jpg`;
+
+      const main = document.querySelector("main");
+      const frame = document.querySelector("iframe");
+      const fullscreen = document.getElementById("fullscreen");
+
+      // Games render at the size of a fullscreen 16:9 stage and are only scaled down to fit,
+      // so they stay sharp and never see a resize (they lay out once at startup).
+      const fitWidth = (width, height) => Math.min(width, (height * 16) / 9);
+      let renderWidth;
+      const fit = () => {
+        frame.style.scale = fitWidth(main.clientWidth, main.clientHeight) / renderWidth;
+      };
+      new ResizeObserver(fit).observe(main);
+
+      const buttons = games.map((game) => {
+        const button = document.createElement("button");
+        button.title = game;
+        button.innerHTML = `<img src="${cover(game)}" alt="${game}" />`;
+        button.onclick = () => show(game);
+        fullscreen.before(button);
+        return button;
+      });
+
+      function show(game) {
+        renderWidth = fitWidth(screen.width, screen.height);
+        frame.style.width = `${renderWidth}px`;
+        frame.style.height = `${(renderWidth * 9) / 16}px`;
+        fit();
+        frame.src = `${dir(game)}/game/index.html`;
+        buttons.forEach((b, i) => b.setAttribute("aria-current", games[i] === game));
+        history.replaceState(null, "", `#${slug(game)}`);
+      }
+
+      // The whole page goes fullscreen, so the covers and this button stay available.
+      fullscreen.onclick = async () => {
+        await (document.fullscreenElement
+          ? document.exitFullscreen()
+          : document.documentElement.requestFullscreen());
+        frame.contentWindow.focus();
+      };
+
+      // Give the game keyboard focus without an extra click.
+      frame.onload = () => frame.contentWindow.focus();
+
+      show(games.find((game) => slug(game) === location.hash.slice(1)) ?? games[0]);
+    </script>
+  </body>
+</html>

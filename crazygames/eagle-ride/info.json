@@ -1,0 +1,121 @@
+{
+  "id": "14465",
+  "name": "Eagle Ride",
+  "slug": "eagle-ride",
+  "https": true,
+  "rating": 9,
+  "upvotes": 3622,
+  "downvotes": 402,
+  "desktopUrl": "https://games.crazygames.com/en_US/eagle-ride/index.html",
+  "tags": [],
+  "descriptionFirst": "<p>Eagle Ride is a very challenging flying game where you ride a fast-flying eagle, avoiding trees. Thankfully, it is a bright day with only a little bit of fog so that you can see very clearly.",
+  "descriptionRest": " The eagle&#39;s flying speed is very hig,h and you need to avoid the trees swiftly. If you hit one, you can always restart and try again. What is the longest time you can fly without crashing? Good luck!</p><h3>Release Date</h3><p>November 7, 2017 (prototype), and has been updated in October 2019 (full version).</p><h3>Developer</h3><p>Aron Sommer developed Eagle Ride and can be played online at <a target=\"_blank\" href=\"https://www.crazygames.com/\">CrazyGames.com</a>. A Japanese composer, Hideyuki Fukasawa, made the music.</p><h3>Features</h3><ul><li>High difficulty</li><li>3D environment</li><li>Easy controls</li><li>Four game modes: Classic, Crazy, Hardcore, and Cat Car</li></ul><h3>Platforms</h3><ul><li>Desktop browser</li><li>Android</li><li>iOS</li></ul>",
+  "metaDescription": "Eagle Ride is a very challenging flying game where you ride a fast-flying eagle, avoiding trees. Thankfully, it is a bright day with only a little bit of fog so that you can see very clearly.",
+  "developer": "Aron Sommer",
+  "developerId": "gU00xR1vpiNctk0eyRMMBSGcdaB2",
+  "controls": "<h3>Controls</h3><ul><li>Left and right arrow keys = steer</li><li>Space bar = replay </li></ul>",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.aronsommer.eagleride",
+  "appStoreUrl": "https://apps.apple.com/us/app/eagle-ride/id1480438673?ls=1",
+  "steamStoreUrl": null,
+  "msnStoreUrl": null,
+  "technology": "unity",
+  "gamesInSeries": [],
+  "videos": {
+    "sizes": [
+      {
+        "width": 205,
+        "height": 115,
+        "location": "eagle-ride/2/eagle-ride-landscape-205x115_30fps.mp4"
+      },
+      {
+        "width": 249,
+        "height": 140,
+        "location": "eagle-ride/2/eagle-ride-landscape-249x140_30fps.mp4"
+      },
+      {
+        "width": 364,
+        "height": 208,
+        "location": "eagle-ride/2/eagle-ride-landscape-364x208_30fps.mp4"
+      },
+      {
+        "width": 494,
+        "height": 276,
+        "location": "eagle-ride/2/eagle-ride-landscape-494x276_30fps.mp4"
+      },
+      {
+        "width": 611,
+        "height": 343,
+        "location": "eagle-ride/2/eagle-ride-landscape-611x343_30fps.mp4"
+      },
+      {
+        "width": 1024,
+        "height": 576,
+        "location": "eagle-ride/2/eagle-ride-landscape-1024x576_30fps.mp4"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "location": "eagle-ride/2/eagle-ride-landscape-1280x720_30fps.mp4"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "location": "eagle-ride/2/eagle-ride-landscape-1920x1080_30fps.mp4"
+      }
+    ],
+    "original": "eagle-ride/2/eagle-ride.mp4",
+    "blurredVideo": {
+      "width": 922,
+      "height": 532,
+      "location": "eagle-ride/2/eagle-ride-landscape-922x532_30fps_blurred.mp4"
+    },
+    "portraitSizes": [],
+    "portraitOriginal": null
+  },
+  "cover": "eagle-ride_16x9/20240605074159/eagle-ride_16x9-cover",
+  "covers": {
+    "1x1": "eagle-ride_1x1/20240605074159/eagle-ride_1x1-cover",
+    "2x3": "eagle-ride_2x3/20240605074159/eagle-ride_2x3-cover",
+    "16x9": "eagle-ride_16x9/20240605074159/eagle-ride_16x9-cover"
+  },
+  "hierarchy": [],
+  "allowEmbed": true,
+  "status": "PUBLISHED",
+  "sandbox": true,
+  "orientation": "BOTH",
+  "disablePWA": false,
+  "lastFileUpdatedOn": "2024-06-10",
+  "isKids": false,
+  "gameThumbLabels": [],
+  "addedOn": "2019-10-02",
+  "basicLaunchOn": "2019-10-02",
+  "lastSignificantUpdatedOn": "2024-06-04",
+  "isSelfHosted": true,
+  "externalLinks": {},
+  "customFields": {},
+  "iosFriendly": true,
+  "androidFriendly": true,
+  "iosAppFriendly": false,
+  "androidAppFriendly": true,
+  "chromebookFriendly": false,
+  "safariFriendly": true,
+  "hasIap": false,
+  "gameSupportUrl": null,
+  "loaderType": "unity2023",
+  "loaderTypeLabel": "Unity 2023",
+  "loaderConfig": {
+    "showProgress": true,
+    "moduleJsonUrl": "https://FILES_DOMAIN/eagle-ride/6/Eagle Ride/Build/Eagle Ride.json",
+    "unityLoaderUrl": "https://files.crazygames.com/eagle-ride/9/Build/0e690a331034d41fc6104b665d7d6ff2.loader.js",
+    "unityConfigOptions": {
+      "codeUrl": "https://files.crazygames.com/eagle-ride/9/Build/100b3aaeca7f17d7a0d7013fa4ac2870.wasm.br",
+      "dataUrl": "https://files.crazygames.com/eagle-ride/9/Build/17430ae69ea94a50f1b55c84ffa0a24a.data.br",
+      "frameworkUrl": "https://files.crazygames.com/eagle-ride/9/Build/97d5e7efd668bb312ac836f3e8a88efe.framework.js.br"
+    }
+  },
+  "buildId": "b88bfbdb-7c35-45fb-a26a-4ff257100a22",
+  "hasLeaderboard": false,
+  "leaderboardGuide": null,
+  "isPreview": true,
+  "userProgressionSaveMessage": "cloud"
+}

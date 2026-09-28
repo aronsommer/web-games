@@ -1,0 +1,73 @@
+{
+  "id": "14736",
+  "name": "Supergun",
+  "slug": "supergun",
+  "https": true,
+  "rating": 9.2,
+  "upvotes": 2914,
+  "downvotes": 241,
+  "desktopUrl": "https://games.crazygames.com/en_US/supergun/index.html",
+  "tags": [],
+  "descriptionFirst": "<p>Supergun is an intense and fast paced arcade game from the creators of the awesome <a href='https://www.crazygames.com/game/eagle-ride' target='_blank'>Eagle Ride</a>. In this title, you control a spaceship and your aim is to guide your ship through space and avoid the red squares.",
+  "descriptionRest": " Your ship moves and fires automatically – all you have to do is control the left and right movements. This might sound easy but the gameplay is fast and you must have great reactions!\n\n</p><p>\n\nAs you progress you ship will move through the maze of squares – avoid the red square but try and hit the other colored squares as they provide bonus scores. Furthermore, watch out for the yellow and grey circles as they will provide a huge boost to your ships firepower such as a quad gun or spaceships that help and target the red squares. See how far you can progress and what high score you can register!\n\n<h3>Release Date</h3>\nJanuary 2018 \n\n<h3>Developer</h3>\nSupergun was developed by Aron Sommer.\n\n<h3>Features</h3>\n<ul>\n<li>Simple pixel graphics and gameplay</li>\n<li>Various power-ups and point squares</li>\n<li>Nice music</li>\n</ul>\n\n<h3>Platforms</h3>\nSupergun is a web browser game. It's also available as an Android and iOS app.",
+  "metaDescription": "Supergun is an intense and fast paced arcade game from the creators of the awesome Eagle Ride. In this title, you control a spaceship and your aim is to guide your ship through space and avoid the red squares.",
+  "developer": "Aron Sommer",
+  "developerId": "gU00xR1vpiNctk0eyRMMBSGcdaB2",
+  "controls": "<h3>Controls</h3>\nUse AD or left/right arrow to steer.",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.aronsommer.supergun",
+  "appStoreUrl": "https://apps.apple.com/us/app/supergun/id1377253518",
+  "steamStoreUrl": null,
+  "msnStoreUrl": null,
+  "technology": "unity",
+  "gamesInSeries": [],
+  "videos": {
+    "sizes": [
+      {
+        "width": 180,
+        "height": 111,
+        "location": "supergun.mp4"
+      }
+    ],
+    "original": null,
+    "blurredVideo": null,
+    "portraitSizes": [],
+    "portraitOriginal": null
+  },
+  "cover": "supergun/20210419131930/supergun-cover",
+  "covers": {
+    "16x9": "supergun/20210419131930/supergun-cover"
+  },
+  "hierarchy": [],
+  "allowEmbed": true,
+  "collection": "airplane",
+  "status": "ARCHIVED",
+  "sandbox": true,
+  "orientation": "BOTH",
+  "disablePWA": false,
+  "isKids": false,
+  "gameThumbLabels": [],
+  "addedOn": "2018-01-11",
+  "basicLaunchOn": "2018-01-11",
+  "isSelfHosted": true,
+  "externalLinks": {},
+  "customFields": {},
+  "iosFriendly": true,
+  "androidFriendly": true,
+  "iosAppFriendly": false,
+  "androidAppFriendly": false,
+  "chromebookFriendly": false,
+  "safariFriendly": true,
+  "hasIap": false,
+  "gameSupportUrl": null,
+  "loaderType": "5.6.x",
+  "loaderTypeLabel": "Unity 5.6",
+  "loaderConfig": {
+    "moduleJsonUrl": "https://files.crazygames.com/supergun/8/Supergun/Build/Supergun.json",
+    "unityLoaderUrl": "https://files.crazygames.com/unityloaders/UnityLoader-v3.js"
+  },
+  "buildId": "b13c2cfd-4320-4941-9bf9-9ed4c3c0bccc",
+  "hasLeaderboard": false,
+  "leaderboardGuide": null,
+  "isPreview": true,
+  "userProgressionSaveMessage": "local"
+}

@@ -1,0 +1,3 @@
+# Never reformat game build files, including the overrides that replace them
+*/*/game/Build/
+*/overrides/
